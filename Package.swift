@@ -23,7 +23,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CUELive",
-            url: "https://github.com/AlexMokrushin/am-mobile/blob/main/CUELive.xcframework.zip",
+            url: "https://github.com/AlexMokrushin/am-mobile/CUELive.xcframework.zip",
             checksum: "8b5a20cba1bf00bdd0ac738b13ec96d45903fd8f8728ce18ea11d887050fb8a6"
         ),
         .binaryTarget(
