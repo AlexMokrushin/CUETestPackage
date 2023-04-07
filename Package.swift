@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "CUELive",
-            targets: ["CUELiveWrapper", "CUEBluetooth", "engine", "TrueTime", "MQTTClient", "SocketRocket"]
+            targets: ["CUELiveWrapper", "CUEBluetooth", "engine", "Lottie", "TrueTime", "MQTTClient", "SocketRocket"]
         ),
     ],
     dependencies: [],
@@ -28,28 +28,33 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CUEBluetooth",
-            url: "https://s3.amazonaws.com/swift-package-manager/CUEBluetooth/0.0.12/CUEBluetooth.0.0.12.xcframework.zip",
-            checksum: "7f352450c746ddcb70d69982c8b59edffe636ff2fda05e239f51f9158416214d"
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUEBluetooth/0.0.14/CUEBluetooth.0.0.14.xcframework.zip",
+            checksum: "000140cace70ff115c40792e6585f52b21e8499dc0f5299126db3b8384291b6c"
         ),
         .binaryTarget(
             name: "engine",
-            url: "https://s3.amazonaws.com/swift-package-manager/engine/1.46.7/engine.1.46.7.xcframework.zip",
-            checksum: "ee1cb50708902f98f1a47dda846b5b188535487a2b39ac837e57ddfde6297e59"
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/engine/1.46.7/engine.1.46.7.xcframework.zip",
+            checksum: "ed95df9c92419fa0289036e707432f44ac06513945b6422d2ee63aabbe019a0d"
+        ),
+        .binaryTarget(
+            name: "Lottie",
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/Lottie/3.4.4/Lottie.3.4.4.xcframework.zip",
+            checksum: "f88344f22ee518ea28ab349515e53f05d962d617d11942e6a96a84dd68057bad"
         ),
         .binaryTarget(
             name: "TrueTime",
-            url: "https://s3.amazonaws.com/swift-package-manager/TrueTime/5.1.0/TrueTime.5.1.0.xcframework.zip",
-            checksum: "d7c25f40dbf33825a38395e2abffcf7525a3e1506535c0e33759b1b65c2e55b7"
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/TrueTime/5.1.0/TrueTime.5.1.0.xcframework.zip",
+            checksum: "4bbd64ccd6fc9aab81fbf64889761f6d1fd39c4c100217809cfa0797f8eb774d"
         ),
         .binaryTarget(
             name: "MQTTClient",
-            url: "https://s3.amazonaws.com/swift-package-manager/MQTTClient/0.15.3/MQTTClient.0.15.3.xcframework.zip",
-            checksum: "ff8004ed5a5ac933f0612d9a0d8c1f60a8eb36742d7bd032428cfcdd7e77072c"
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/MQTTClient/0.15.3/MQTTClient.0.15.3.xcframework.zip",
+            checksum: "5302587047ef653610fbebb2a41d7abd410795e1b568e7c8c72f17c17a0e549f"
         ),
         .binaryTarget(
             name: "SocketRocket",
-            url: "https://s3.amazonaws.com/swift-package-manager/SocketRocket/0.5.1/SocketRocket.0.5.1.xcframework.zip",
-            checksum: "14f9ba5bcc380739f0bd0d9a432d0924868b2427f787dcb4c79cd9de8f0ad04a"
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/SocketRocket/0.5.1/SocketRocket.0.5.1.xcframework.zip",
+            checksum: "5b46ecf3042923218b38a3581fe3b7088e0d3fd1e513425f30deb73987dd1eb0"
         )
     ]
 )
