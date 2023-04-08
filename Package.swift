@@ -20,7 +20,10 @@ let package = Package(
 			dependencies: [
 				.target(name: "CUELive"),
 			],
-			path: "CUELiveWrapper"
+			path: "CUELiveWrapper",
+            linkerSettings: [
+                .unsafeFlags(["-Xlinker", "-L/usr/local/lib"], .when(platforms: [.macOS]))
+            ]
 		),
 		.binaryTarget(
 			name: "CUELive",
