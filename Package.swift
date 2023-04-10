@@ -39,8 +39,8 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "Lottie",
-			url: "https://github.com/airbnb/lottie-ios/releases/download/4.1.3/Lottie.xcframework.zip",
-			checksum: "31ab682ec2c7b49e8a59458f7e4cfa027a07d8ba962df0ddcb95909ce5a9693d"
+			url: "https://github.com/AlexMokrushin/CUETestPackage/releases/download/1.0.2/Lottie.xcframework.zip",
+			checksum: "77d0979948d4869e5252c918fb1c2c026713199e348604547ea171ba4c66b1ee"
 		),
 		.binaryTarget(
 			name: "TrueTime",
