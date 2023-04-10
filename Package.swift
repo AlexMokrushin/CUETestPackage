@@ -10,7 +10,7 @@ let package = Package(
 	products: [
 		.library(
 			name: "CUELive",
-			targets: ["CUELiveWrapper", "CUEBluetooth", "engine", "TrueTime", "MQTTClient", "SocketRocket"]
+			targets: ["CUELiveWrapper", "CUEBluetooth", "engine", "Lottie", "TrueTime", "MQTTClient", "SocketRocket"]
 		),
 	],
 	dependencies: [],
