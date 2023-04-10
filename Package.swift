@@ -24,7 +24,7 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "CUELive",
-            url: "https://s3.console.aws.amazon.com/s3/buckets/swift-package-manager?region=us-east-1&prefix=binaries/CUELive/3.5.26/CUELive.xcframework.zip",
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.5.26/CUELive.xcframework.zip",
             checksum: "3b80181c1009e1ed3255d4b73a079e8a76f507cdc61192b6c04117654dcbec15"
 		),
 		.binaryTarget(
