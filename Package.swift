@@ -20,15 +20,12 @@ let package = Package(
 			dependencies: [
 				.target(name: "CUELive"),
 			],
-			path: "CUELiveWrapper",
-            linkerSettings: [
-                .unsafeFlags(["-Xlinker", "-L/usr/local/lib"], .when(platforms: [.macOS]))
-            ]
+			path: "CUELiveWrapper"
 		),
 		.binaryTarget(
 			name: "CUELive",
-            url: "https://github.com/AlexMokrushin/CUETestPackage/releases/download/0.0.1/CUELive.xcframework.zip",
-            checksum: "8b5a20cba1bf00bdd0ac738b13ec96d45903fd8f8728ce18ea11d887050fb8a6"
+            url: "https://github.com/AlexMokrushin/CUETestPackage/releases/download/1.0.0/CUELive.xcframework.zip",
+            checksum: "31291c9a278ef5160572573d56f56077e3fff9fffcc0e420b63edcdbc9e674ac"
 		),
 		.binaryTarget(
 			name: "CUEBluetooth",
@@ -39,6 +36,11 @@ let package = Package(
 			name: "engine",
 			url: "https://s3.amazonaws.com/swift-package-manager/binaries/engine/1.46.7/engine.1.46.7.xcframework.zip",
 			checksum: "ed95df9c92419fa0289036e707432f44ac06513945b6422d2ee63aabbe019a0d"
+		),
+		.binaryTarget(
+			name: "Lottie",
+			url: "https://github.com/airbnb/lottie-ios/releases/download/4.1.3/Lottie.xcframework.zip",
+			checksum: "31ab682ec2c7b49e8a59458f7e4cfa027a07d8ba962df0ddcb95909ce5a9693d"
 		),
 		.binaryTarget(
 			name: "TrueTime",
