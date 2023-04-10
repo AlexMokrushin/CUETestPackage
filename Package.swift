@@ -24,8 +24,8 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "CUELive",
-            url: "https://github.com/AlexMokrushin/CUETestPackage/releases/download/1.0.0/CUELive.xcframework.zip",
-            checksum: "31291c9a278ef5160572573d56f56077e3fff9fffcc0e420b63edcdbc9e674ac"
+            url: "https://s3.console.aws.amazon.com/s3/buckets/swift-package-manager?region=us-east-1&prefix=binaries/CUELive/3.5.26/CUELive.xcframework.zip",
+            checksum: "3b80181c1009e1ed3255d4b73a079e8a76f507cdc61192b6c04117654dcbec15"
 		),
 		.binaryTarget(
 			name: "CUEBluetooth",
@@ -39,7 +39,7 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "Lottie",
-			url: "https://github.com/airbnb/lottie-ios/releases/download/4.1.3/Lottie.xcframework.zip",
+			url: "https://s3.amazonaws.com/swift-package-manager/binaries/Lottie/4.1.3/Lottie.xcframework.zip",
 			checksum: "31ab682ec2c7b49e8a59458f7e4cfa027a07d8ba962df0ddcb95909ce5a9693d"
 		),
 		.binaryTarget(
