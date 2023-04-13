@@ -16,12 +16,11 @@ let package = Package(
 	dependencies: [
         // Dependencies declare other packages that this package depends on.
             .package(name: "Lottie", url: "https://github.com/airbnb/lottie-ios.git", from: "4.1.3")],
-	targets: [
+    targets: [
 		.target(
 			name: "CUELiveWrapper",
 			dependencies: [
 				.target(name: "CUELive"),
-                "Lottie",
 			],
 			path: "CUELiveWrapper"
 		),
