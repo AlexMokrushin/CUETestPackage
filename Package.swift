@@ -13,10 +13,7 @@ let package = Package(
 			targets: ["CUELiveWrapper", "CUEBluetooth", "engine", "TrueTime", "MQTTClient", "SocketRocket"]
 		),
 	],
-	dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/airbnb/lottie-ios.git", from: "master"),
-    ],
+	dependencies: [],
 	targets: [
 		.target(
 			name: "CUELiveWrapper",
