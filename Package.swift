@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(name: "lottie-spm", url: "https://github.com/airbnb/lottie-spm.git", from: "4.3.4")
+        .package(name: "lottie-spm", url: "https://github.com/airbnb/lottie-spm.git", from: "4.0.0")
     ],
     targets: [
         .target(
